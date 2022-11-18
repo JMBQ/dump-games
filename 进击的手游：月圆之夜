@@ -1,8 +1,0 @@
-# 前言
-说起来，我还是从P大的il2cppdumper里面的issues了解到月圆之夜的
-经过一番研究，发现这个游戏隐藏了几乎所有的il2cpp的api，这也就导致了il2cppdumper失败
-
-# 开始
-il2cpp相关的api是需要unity调用的，所以libunity.so必然有对应的解法
-ida载入libunity.so， shift+F12弹出字符串窗口，搜索“il2cpp”，出现一大堆结果，双击“il2cpp_method_get_class”，
-![](img/yyzy/02.jpg)
