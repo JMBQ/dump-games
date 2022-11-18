@@ -5,4 +5,4 @@
 # 开始
 il2cpp相关的api是需要unity调用的，所以libunity.so必然有对应的解法
 ida载入libunity.so， shift+F12弹出字符串窗口，搜索“il2cpp”，出现一大堆结果，双击“il2cpp_method_get_class”，
-![image](img/yyzy/02.jpg)
+![](img/yyzy/02.jpg)
