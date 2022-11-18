@@ -1,4 +1,5 @@
 # 前言
 说起来，我还是从P大的il2cppdumper里面的issues了解到月圆之夜的
 经过一番研究，发现这个游戏隐藏了几乎所有的il2cpp的api，这也就导致了il2cppdumper失败
-时过几个月，在看雪上看到了[这篇文章](https://bbs.pediy.com/thread-275146.htm)
+
+
