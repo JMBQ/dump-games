@@ -8,7 +8,7 @@
   
   纳尼，难道你也是坏孩子？我又从裤裆里摸出shamiko，发现没啥用
   
-  推断在```LOGI("dumping...");```的某个api出问题了，那就一并打印测试
+  推断在```LOGI("dumping...");```的某个api出问题了，那就将api一并打印
   ```
   init_il2cpp_api();
     if (il2cpp_domain_get_assemblies) {
