@@ -12,6 +12,6 @@
 * dump.cs
 * Magisk
 
-已征服手游列表：
+# 已征服手游列表：
 * 月圆之夜
 * Fantasy Life
