@@ -52,15 +52,14 @@ Il2CppImage* Assembly::GetImage(const Il2CppAssembly* assembly)
     return assembly->image;
 }
 ```
-很清楚了，api直接获取assembly指针里的image，那我们一样画葫芦  
-
+很清楚了，api直接获取assembly指针里的image，将项目中的代码   
 ```auto image = il2cpp_assembly_get_image(assemblies[i]);```  修改成  
  ```auto image = assemblies[i]->image;```
 
-代码瞬间报错，提示没有image这玩意，那你肯定没把对应2018.4.30f1的il2cpp-api-functions.h和il2cpp-class.h替换进项目中
+代码瞬间报错，提示没有image这玩意，那你肯定没把对应 2018.4.30f1 的 il2cpp-api-functions.h 和 il2cpp-class.h 替换进项目中
 
 替换完毕之后，代码又开始报错```auto items = reflectionTypes->vector;```  
-指针没有vector，没事，这个是绝对不会执行到的流程，因为unity大于2018.3，所以直接注释掉与它相关的报错内容
+该指针没有vector，没事，这个是绝对不会执行到的流程，因为unity大于2018.3，所以直接注释掉与它相关的报错内容
 
 继续打包，又跳出一个错误  
 ![image](img/Fantasy/03.jpg)  
