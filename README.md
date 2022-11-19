@@ -6,6 +6,12 @@
 
 文章将记录大致过程和核心代码，项目源码就懒得给了，自行填补即可，有疑问就issues
 
+# 标签
+* il2cppdumper 
+* zygisk 
+* dump.cs
+* Magisk
+
 已征服手游列表：
 * 月圆之夜
 * Fantasy Life
