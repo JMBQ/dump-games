@@ -11,5 +11,5 @@
 * Magisk
 
 # 已征服手游列表：
-* 隐藏API（01篇）：月圆之夜
-* 版本陷阱（02篇）：Fantasy Life、  重装战姬
+* Il2cpp隐藏API：月圆之夜（01篇）
+* Unity版本陷阱：Fantasy Life（02篇）、  重装战姬（02篇）
