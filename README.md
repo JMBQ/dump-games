@@ -2,7 +2,7 @@
 
 本教程不打弱鸡，专门找那些无法轻松dump的手游，取名为《进击的手游》
 
-文章将记录大致过程和核心代码，项目源码就懒得给了，自行填补即可，有疑问就issues
+文章将记录大致过程和核心代码，项目源码就懒得给了，读者自行获取il2cppdumper源码再填补即可，有疑问就issues
 
 # 标签
 * [il2cppdumper](https://github.com/Perfare/Zygisk-Il2CppDumper) 
