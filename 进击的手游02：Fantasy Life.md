@@ -84,7 +84,6 @@ typedef enum Il2CppMetadataTypeFlags
 ```
 kNone重复了，那就修改dobby这个，改成 kNone_ ，之后就顺利打包了
 
-![image](img/Fantasy/04.jpg)  
-
 # 结果
-感觉是这个unity版本的问题，并非手游开发人员修改，以后看到这个版本unity注意一下就行
+![image](img/Fantasy/04.jpg)  
+这是版本陷阱，在2018或更高版本中可能出现
